@@ -1,0 +1,36 @@
+.top-image {
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  width:100%;
+  height: 50%;
+  background-position: center;
+  background-size: contain;
+}
+.cats {
+  position:absolute;
+  top: 50%;
+  display:flex;
+  justify-content:center;
+  width:calc(100% - 20px);
+  padding:10px;
+  flex-wrap:wrap;
+  left:0px;
+}
+.cat {
+  border-radius: 10px;
+  height: 400px;
+  width:400px;
+  background-position: center;
+  background-size: contain;
+  margin:10px;
+  background-color:black;
+  cursor:pointer;
+  transition:.25s;
+}
+.cat:hover {
+  opacity:30%;
+}
+body {
+  background-color:#212121;
+}
